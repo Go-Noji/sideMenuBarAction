@@ -121,10 +121,5 @@
     $('#curtain').on('touchstart', function(){
       menuAction();
     });
-    
-    //背景の黒い幕に触れた瞬間、メニューを閉じる（PC用）
-    $('#curtain').click(function(){
-      menuAction();
-    });
   });
 }());
